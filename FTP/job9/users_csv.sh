@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#cat /home/Documents/laplateforme/FTP/job9/users.csv | while read varligne
+#cat /home/Documents/script/FTP/job9/users.csv | while read varligne
 #do
  #   password=`echo $varligne |cut -d ',' -f4`
  #   username=`echo $varligne |cut -d ',' -f2`
@@ -21,7 +21,7 @@
 
 sudo groupadd ftpadmin
 
-cat ~/Documents/laplateforme/FTP/job9/users.csv | while read varligne
+cat ~/Documents/script/FTP/job9/users.csv | while read varligne
 do
     password=`echo $varligne |cut -d ',' -f4`
     ftpuser=`echo $varligne |cut -d ',' -f2`
