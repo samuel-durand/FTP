@@ -1,6 +1,5 @@
 cd ~/Documents/script/FTP/job9
 
-
 #création du group admin 
 
 sudo groupadd ftpadmin
